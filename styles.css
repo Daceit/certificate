@@ -1,0 +1,12 @@
+
+.side{
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-flow: column;
+background-color: rgb(208, 208, 208);
+width: 20vw;
+height: 50vw;
+
+
+}

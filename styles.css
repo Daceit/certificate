@@ -1,4 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&family=Meddon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meie+Script&display=swap');
 .side{
 display: flex;
 align-items: flex-start;
@@ -6,7 +8,59 @@ justify-content: flex-start;
 flex-flow: column;
 background-color: rgb(208, 208, 208);
 width: 20vw;
-height: 50vw;
-
-
+height: 66rem;
+}
+#preview{
+    width: 30vw;
+    height: 23vw;
+    margin-left: 40vw;
+    margin-top: 15rem;
+    border: solid;
+}
+.bird{
+    background-image:url(images/bird.png);
+    background-size: cover;
+}
+.Bname{
+    font-family: 'Inknut Antiqua', serif;
+    margin-top: 7.2vw;
+    font-size: 0.9vw;
+}
+.Bdate{
+    font-family: 'Inknut Antiqua', serif;
+    margin-top: -1.5vw;
+    font-size: 0.9vw;
+}
+.frog{
+    background-image:url(images/frog.png);
+    background-size: cover;
+}
+.Fname{
+    font-family: 'Meie Script';
+    font-size: 2vw;
+    margin-top: 9.8vw;
+}
+.Fdate{
+    font-family: 'Meie Script';
+    font-size: 1.4vw;
+    margin-top: -1vw;
+}
+.nothing{
+    background-image:url(images/nothing.png);
+    background-size: cover;
+}
+.Nname{
+    margin-left: 0.3vw;
+    margin-top: 9.5vw;
+    font-size: 1vw;
+    font-family: 'Meddon';
+}
+.Ndate{
+    margin-left: 0.5vw;
+    margin-top: -.4vw;
+    font-size: 0.8vw;
+    font-family: 'Meddon';
+}
+p{
+    text-align: center;
 }

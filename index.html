@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="app.js"></script>
 </head>
+
 <body>
     <main>
         <section class="side">
-            <input type="text" name="name" id="name" placeholder="name">
+            <input type="text" name="name" id="Iname" placeholder="name">
 
             <form action="" id="form">
                 <select name="type" id="type">
-                    <option value="B">Bird</option>
-                    <option value="F">Frog Hater</option>
-                    <option value="N">Nothing</option>
+                    <option id="submit" value="B">Bird</option>
+                    <option id="submit" value="F">Frog Hater</option>
+                    <option id="submit" value="N">Nothing</option>
                 </select>
             </form>
-            <section id="preview" class="bird">
-                <span id="name" class="Bname">Matthew</span>
-                <span id="Adate" class="Bdate"></span>
-            </section>
+            <form action="" id="input">
+                <section id="preview" class="bird">
+                    <p id="name" class="Bname">Your name</p>
+                    <p id="date" class="Bdate"></p>
+                </section>
+            </form>
         </section>
     </main>
 </body>
+
 </html>

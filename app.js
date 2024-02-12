@@ -10,6 +10,12 @@ document.addEventListener("DOMContentLoaded", function () {
         let buttons = document.querySelectorAll('.button');
         buttons.forEach(button => button.addEventListener('click', processForm))
     }
+    if ( document.getElementById(`print`) !== null) {
+        let printScreen = document.getElementById(`print`);
+        printScreen.addEventListener(`click`, function(e){
+            window.print();
+        });
+    }
 
     // optionally update when fields update
     // tbd

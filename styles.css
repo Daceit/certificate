@@ -64,3 +64,23 @@ height: 80rem;
 p{
     text-align: center;
 }
+@media print {
+    #form {
+        display: none;
+    }
+    #print{
+        display: none;
+    }
+    #Iname{
+        display: none;
+    }
+    .side{
+        background-color: white;
+        height: 0px;
+    }
+    #preview{
+        width: 30vw;
+        height: 23vw;
+        margin-left: 30vw;
+    }
+}

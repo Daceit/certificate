@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     let theDate = new Date().toLocaleDateString(`en-us`, { year: "numeric", month: "numeric", day: "numeric" })
     let dateF = document.getElementById(`date`);
-    dateF.innertext = theDate;
+    dateF.innerText = theDate;
 
 
     // check for buttons exist

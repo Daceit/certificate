@@ -79,8 +79,41 @@ p{
         height: 0px;
     }
     #preview{
-        width: 30vw;
-        height: 23vw;
-        margin-left: 30vw;
+        width: 98vw;
+        height: 75vw;
+        margin-left: 0px;
+        margin-top: 0rem;
+    }
+    .Bname{
+        font-family: 'Inknut Antiqua', serif;
+        margin-top: 24vw;
+        font-size: 2.8vw;
+    }
+    .Bdate{
+        font-family: 'Inknut Antiqua', serif;
+        margin-top: -4.5vw;
+        font-size: 2.8vw;
+    }
+    .Fname{
+        font-family: 'Meie Script';
+        font-size: 6.5vw;
+        margin-top: 32vw;
+    }
+    .Fdate{
+        font-family: 'Meie Script';
+        font-size: 3.8vw;
+        margin-top: -2.5vw;
+    }
+    .Nname{
+        margin-left: 0.6vw;
+        margin-top: 31.5vw;
+        font-size: 3.1vw;
+        font-family: 'Meddon';
+    }
+    .Ndate{
+        margin-left: 0.8vw;
+        margin-top: -1vw;
+        font-size: 2.7vw;
+        font-family: 'Meddon';
     }
 }
